@@ -29,7 +29,7 @@
   # x: 3
   
   # Registers tag with class Foo
-  Foo.yaml_as("tag:example.com,2013:foo")
+  Foo.yaml_tag("tag:example.com,2013:foo")
   # ... and dumps the object of Foo class
   Psych.dump(Foo.new(3), STDOUT)
   # =>
